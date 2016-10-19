@@ -1,13 +1,12 @@
 package com.example.android.an_project0;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,14 +17,6 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
     }
 
     @Override
@@ -48,5 +39,82 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    /**
+     * This method displays a toast telling the user that this will launch
+     * the Popular Movies App.
+     *
+     * @param view
+     */
+    public void launchPopularMovies(View view){
+        Toast toast = Toast.makeText(this, "This button will launch the Popular Movies App!",
+                Toast.LENGTH_SHORT);
+        toast.show();
+    }
+
+    /**
+     * This method displays a toast telling the user that
+     *
+     * @param view
+     */
+    public void launchStockHawk(View view){
+        // Throw a toast here to let the user know that this will launch
+        // the Popular Movies App
+        Toast toast = Toast.makeText(this, "This button will launch the Stock Hawk App!",
+                Toast.LENGTH_SHORT);
+        toast.show();
+    }
+
+    /**
+     * This method displays a toast telling the user that
+     *
+     * @param view
+     */
+    public void launchBuildItBigger(View view){
+        // Throw a toast here to let the user know that this will launch
+        // the Popular Movies App
+        Toast toast = Toast.makeText(this, "This button will launch the Build It Bigger App!",
+                Toast.LENGTH_SHORT);
+        toast.show();
+    }
+
+    /**
+     * This method displays a toast telling the user that
+     *
+     * @param view
+     */
+    public void launchMakeYourAppMaterial(View view){
+        // Throw a toast here to let the user know that this will launch
+        // the Popular Movies App
+        Toast toast = Toast.makeText(this, "This button will launch the Make Your App Material App!",
+                Toast.LENGTH_SHORT);
+        toast.show();
+    }
+
+    /**
+     * This method displays a toast telling the user that
+     *
+     * @param view
+     */
+    public void launchGoUbiquitous(View view){
+        // Throw a toast here to let the user know that this will launch
+        // the Popular Movies App
+        Toast toast = Toast.makeText(this, "This button will launch the Go Ubiquitous App!",
+                Toast.LENGTH_SHORT);
+        toast.show();
+    }
+
+    /**
+     * This method displays a toast telling the user that
+     *
+     * @param view
+     */
+    public void launchCapstone(View view){
+        // Throw a toast here to let the user know that this will launch
+        // the Popular Movies App
+        Toast toast = Toast.makeText(this, "This button will launch the Capstone App!",
+                Toast.LENGTH_SHORT);
+        toast.show();
     }
 }

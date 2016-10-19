@@ -14,14 +14,94 @@
     tools:context="com.example.android.an_project0.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true">
-
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
+            android:layout_height="wrap_content"
+            android:paddingLeft="64dp"
+            android:paddingRight='64dp'
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="My Nanodegree Apps!"
+                android:textSize="36dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="24dp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Popular Movies"
+                    android:textSize="24dp"
+                    android:paddingTop="24dp"
+                    android:paddingBottom="24dp"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:onClick="launchPopularMovies"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Stock Hawk"
+                    android:textSize="24dp"
+                    android:paddingTop="24dp"
+                    android:paddingBottom="24dp"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:onClick="launchStockHawk"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Build It Bigger"
+                    android:textSize="24dp"
+                    android:paddingTop="24dp"
+                    android:paddingBottom="24dp"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:onClick="launchBuildItBigger"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Make Your App Material"
+                    android:textSize="24dp"
+                    android:paddingTop="24dp"
+                    android:paddingBottom="24dp"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:onClick="launchMakeYourAppMaterial"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Go Ubiquitous"
+                    android:textSize="24dp"
+                    android:paddingTop="24dp"
+                    android:paddingBottom="24dp"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:onClick="launchGoUbiquitous"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Capstone"
+                    android:textSize="24dp"
+                    android:paddingTop="24dp"
+                    android:paddingBottom="24dp"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="#2E3D49"
+                    android:onClick="launchCapstone"
+                    />
+            </LinearLayout>
+        </LinearLayout>
 </RelativeLayout>
