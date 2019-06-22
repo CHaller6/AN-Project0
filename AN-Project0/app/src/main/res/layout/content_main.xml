@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:text="My Nanodegree Apps!"
-                android:textSize="36dp"/>
+                android:textSize="36sp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -40,7 +40,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Popular Movies"
-                    android:textSize="24dp"
+                    android:textSize="24sp"
                     android:paddingTop="24dp"
                     android:paddingBottom="24dp"
                     android:textColor="@android:color/white"
@@ -51,7 +51,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Stock Hawk"
-                    android:textSize="24dp"
+                    android:textSize="24sp"
                     android:paddingTop="24dp"
                     android:paddingBottom="24dp"
                     android:textColor="@android:color/white"
@@ -62,7 +62,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Build It Bigger"
-                    android:textSize="24dp"
+                    android:textSize="24sp"
                     android:paddingTop="24dp"
                     android:paddingBottom="24dp"
                     android:textColor="@android:color/white"
@@ -73,7 +73,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Make Your App Material"
-                    android:textSize="24dp"
+                    android:textSize="24sp"
                     android:paddingTop="24dp"
                     android:paddingBottom="24dp"
                     android:textColor="@android:color/white"
@@ -84,7 +84,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Go Ubiquitous"
-                    android:textSize="24dp"
+                    android:textSize="24sp"
                     android:paddingTop="24dp"
                     android:paddingBottom="24dp"
                     android:textColor="@android:color/white"
